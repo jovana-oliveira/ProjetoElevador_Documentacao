@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+Projeto - Elevador
+
+Criação de elevador com quantidades de andares e capacidade de pessoas informadas pelo  usuário.
+Primeiramente para utilizar qualquer uma das funções exibidas para o usuário, a primeira função será de Inicializar.   
+A mensagem inicial do Console será: " Seja bem vindo! Selecione a opção para iniciar o elevador :
+                                1 - Inicializar "
+Logo após Inicializar, o Console irá mostrar as seguintes mensagens;
+Digite a quantidade total de andares e Digite a capacidade total do elevador.
+Após de ser informados a quantidade e capacidades total do elevador, o console irá ixibir a seguinte mensagem.
+Escolha uma opção:
+                                2 - Entrar
+                                3 - Sair
+                                4 - Subir
+                                5 - Descer
+
+2 - Entrar : deve acrescentar uma pessoa no elevador (só deve acrescentar se ainda houver espaço);
+Se o elevador atingir o limite informado pelo usuário, deverá informar a frase:"O número de pessoas foi atingido."
+3 - Sair : deve remover uma pessoa do elevador (só deve remover se houver alguém dentro dele);
+4 - Subir : deve subir um andar (não deve subir se já estiver no último andar);
+Se o elevador atingir o limite informado pelo usuário, deverá informar a frase:"Andar máximo atingido"
+5 - Descer - deve descer um andar (não deve descer se já estiver no térreo );
+Se o elevador estiver no térreo e o usuário, deverá informar a frase:"Terréo"
+
+
+
+
+                          
